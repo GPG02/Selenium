@@ -1,0 +1,60 @@
+Selenium-(4.15.0)
+Free and opensource Web Application Test Automation Tool
+
+Free-->no need to purchase license https://www.selenium.dev/downloads/
+--> Whatsapp linkedIn gmail slack .... naukri.com
+
+Open Source--> we can see the source code, we can download it , customize and make money--> https://github.com/SeleniumHQ/selenium/tree/trunk/java/src
+
+Unix Android java python...
+
+Web Application--> accessed using browser (URL-Uniform Resource Locator)
+
+Not possible--> Desktop app, mobile app, api testing,performance testing....
+
+example for browser-->> chrome firefox opera edge safari.....
+
+test automation--> performing actions and verification without any interventions
+		UFT testcompleter RFT Appium....RestAssured Jemter LaodRunner 
+tool--> software
+ 
+Language(12)--> C# Ruby Java Python JS
+            Go Haskell Perl PHP R Dart SmallTalk
+
+
+why selenium?
+1. Free 
+2. All major browsers
+3. customization, integration plugins
+4. mulitple languages (quick learning- easy setup & support)
+5. more Auto Eng CV-HR
+
+install selenium (java)
+1. JDK 
+2. IDE (Eclipse)
+3. Selenium jar file
+
+Steps
+1. open eclipse
+2. create a project
+3. create a package and a java file, write the code and excute 
+4. download selenium jar from https://www.selenium.dev/downloads/
+5. create a folder under the java project (lib)
+6. copy paste the selenium jar file into the lib folder
+7. right click on the jar file --> build path--> add to build path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+Maven-- dependecy tool--> automatically update the jar files
+
+How to create it
+1. File ->new ->project
+2. maven--> maven project-->next
+3. create simple maven project chk box->next
+4. group id (org name)
+5. artifact id(project name)
+6. click finish
+
+pom.xml--> project object model
+
+7. double click pom.xml
+8. click dependencies tab
+9. add
+
+How to see the source code of Selenium?
+
+we need fully qualified class name--> package.classname
+ex: org.openqa.selenium.chrome.ChromeDriver
+
+Goto https://github.com/SeleniumHQ/selenium/tree/trunk/java/src
+
+
+public class ChromeDriver extends ChromiumDriver
+
+public class ChromiumDriver extends RemoteWebDriver
+
+public class RemoteWebDriver implements WebDriver,JavascriptExecutor,TakesScreenshot 
+
+Explain the architecture of Selenium
+
+which is the protocol used by selenium -- W3C
+old(JSON wire protocol)
+
+What is upcasting ? why it is used in Selenium?
+Converting child class object to parent type is called as upcasting (auto in java)
+ex:
+WebDriver driver=new ChromeDriver();
+
+in selenium we use this upcasting so that same script works on any browser
+
+
+
+
+
