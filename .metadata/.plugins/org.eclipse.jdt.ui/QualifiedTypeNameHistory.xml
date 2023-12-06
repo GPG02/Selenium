@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chromium.ChromiumDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.safari.SafariDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Dimension"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Point"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriverInfo"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,24 @@
+package day3;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		//open the browser
+		WebDriver driver=new ChromeDriver();
+		//enter the url
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		Thread.sleep(1000);
+		//enter the user name
+		WebElement unTB = driver.switchTo().activeElement();
+		unTB.sendKeys("Admin");
+		//enter the password
+		
+		//click on login
+
+	}
+
+}

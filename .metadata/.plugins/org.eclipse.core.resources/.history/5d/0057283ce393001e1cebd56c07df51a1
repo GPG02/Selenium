@@ -1,0 +1,19 @@
+package day3;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		//open the browser
+		
+		//enter the url
+		
+		//enter the user name
+		
+		
+		//enter the password
+		
+		//click on login
+
+	}
+
+}

@@ -1,0 +1,11 @@
+What is the diff b/w driver.get(arg) & driver.navigate().to(arg)?
+
+to method internally calls get method 
+
+What is the diff b/w driver.get(arg)  & driver.navigate() ?
+get--> enter the url and get the response (web page)
+
+navigate--> enter the url , back ,forward & refresh
+
+HTML--> Hyper Text Markup Language
+to create webpage (elements)
