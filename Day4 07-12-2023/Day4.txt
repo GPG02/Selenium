@@ -1,0 +1,53 @@
+open browser
+enter the url
+back fwd refersh
+max min resize move fullscreen
+close
+
+<input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwi63M7JoPyCAxVHSWwGHWhABb0Q4dUDCBI">
+
+<a href="https://www.google.com/setprefs?sig=0_lga_Rpojt93q0LBSjCM1xQ7LwJw%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi63M7JoPyCAxVHSWwGHWhABb0Q2ZgBCBc">हिन्दी</a>
+
+tag
+attributes
+text
+
+<p class="oxd-text oxd-text--p orangehrm-login-forgot-header" data-v-7b563373="" data-v-358db50f="">Forgot your password? </p>
+
+<a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>
+
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+
+In selenium before performing any action(typing clicking selecting....) first we should find the element/locate the element
+
+to do this we use locators (built in mechanism in selenium to search and identify the required element)
+
+in Selenium there are 8 locators present under By class
+1. all the locators are static method of By class
+2. By class is an Abstract Class
+3. all locators takes 1 arg of type String
+4. all these locators return type is By
+5. 
+		tagName
+		id
+		name
+		className
+		linkText
+		partialLinkText
+		cssSelector
+		xpath 
+6. fastest locator is tagName , slowest --> xpath
+
+if the specified locator is matching with 1 element --> findElement returns the address of the matching element
+if the specified locator is matching with >1 element --> findElement returns the address of the 1st matching element
+if the specified locator is NOT matching with any element --> findElement throws NoSuchElementException
+
+
+
+
+
+
+
+
+
+
