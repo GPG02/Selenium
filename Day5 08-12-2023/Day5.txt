@@ -1,0 +1,105 @@
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+
+locators
+1. tagName
+2. id
+3. name
+4. className
+5. linkText
+6. partialLinkText
+7. cssSelector
+8. xpath
+
+Note:
+locators 1,2,3,4,7 & 8 can be used to locate any type of element
+locators 5 & 6 can be used to locate only link- if we try to use it for other element type we get NSEE
+
+partialLinkText--> use it if text of link is lengthy or if it is dynamic --> inbox(10)
+
+if link text is "BhanuprakashaHK"
+Bhanu
+prakash
+anu
+anup
+akash
+asha
+shaH
+raka
+
+<input type="text">
+tagname
+<input type="password">
+css Selector
+
+<p class="oxd-text oxd-text--p oxd-alert-content-text" data-v-7b563373="" data-v-87fcf455="">Invalid credentials</p>
+
+CSS--> Cascading Style Sheets
+handle look & feel
+
+syntax: tag[AN='AV']
+
+
+ex: input[type='text']---> css expression
+input[type='password']
+
+How to verify css expression in page?
+1. inspect any element (open the dev toolbar)
+2. press ctrl + f on html tree (Elements tab)
+3. type/ paste the css expression in the find text box
+
+
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+
+a[id='a1']
+
+a[id="a1"]
+
+a[name='n1']
+
+a[class='c1']
+
+a[title='click me']
+
+a[href='http://www.google.com']
+
+
+limitation: we cant use text of the element in cssSelector
+
+
+in CSS Selector we ahve 2 shortcuts  
+1) #-------> id
+2) . dot --> class
+
+a[id='a1']------> a#a1 -----> #a1
+a[#='a1'] XXXXXXX
+
+a[class='c1']---> a.c1------> .c1
+a[.='c1']  XXXXXX
+
+
+<input class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="" data-v-1f99f73c="">
+
+input[name='username']
+
+<input class="oxd-input oxd-input--active" type="password" name="password" placeholder="Password" data-v-1f99f73c="">
+
+input[name='password']
+
+
+<button type="submit" class="oxd-button oxd-button--medium oxd-button--main orangehrm-login-button" data-v-10d463b7="" data-v-358db50f=""><!----> Login <!----></button>
+
+button[type='submit']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
