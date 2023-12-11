@@ -1,0 +1,21 @@
+Locators
+tn id name cn lt plt cssS xpath
+
+xpath
+path of the element in html tree
+./html/body/a
+
+. (dot) --> root element
+
+/ ----> child 
+
+dot not mandatory
+
+/html/body/a
+
+in xpath we can use index and index starts from 1
+
+html	1
+  body	1
+   input	1
+   input	2
