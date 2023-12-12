@@ -1,0 +1,132 @@
+/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]
+/html/body/div[1]/div[2]/div/img
+
+in xpath we have 2 types
+
+absolute xpath--> /html/body/a
+relative xpath--> //a
+
+child ---> /
+descendant--> //
+
+
+/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input
+
+we can use attribute in xpath
+tag[@an='av']
+
+/html/body/a[@id='a1']
+//a[@id='a1']
+
+//a[@href='http://www.fb.com']
+
+
+we can also use logical operators such as 'and or not'
+
+//a[@id='a1' or not(@href='http://www.fb.com')]
+
+in xpath we can use text also
+
+//tag[text()='value']
+//a[text()='Google']
+
+
+conatins functions
+//tag[contains(arg1,arg2)]
+
+//tag[contains(@an,'av')]
+
+//tag[contains(text(),'tv')]
+
+<input class="ZmCOM" type="text" name="actiTimeUrl" value="">
+
+//input[@name="actiTimeUrl"]
+can we use attribute in xpath?
+yes
+
+//tag[@AN='av']
+
+can we use mulitple attrinbutes in xpath?
+yes
+//tag[@AN1='AV1' and @AN2='AV2' or not(@AN3='AV3') and not(text()='tv') or contains(@AN4,'v') or contains(text(),'v') ]
+
+
+<span>to your actiTIME Integrator</span>
+//span[text()='to your actiTIME Integrator']
+//span[contains(text(),'to your')]
+
+
+//tag[starts-with(arg1,arg2)]
+//span[contains(arg1,arg2)]
+
+
+XXXXXXXXX//tag[ends-with(arg1,arg2)] xpath 1 XXXXXXXXX
+
+arg1--> @AN or text()
+arg2--> 'AV' or 'tv'
+
+//span[starts-with(text(),'to your')]
+
+
+steps
+1. open the browser
+
+2. enter url
+
+3. enter un
+<input class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="" data-v-1f99f73c="">
+//input[@name='username']
+
+4. enter pw
+<input class="oxd-input oxd-input--active" type="password" name="password" placeholder="Password" data-v-1f99f73c="">
+//input[@name='password']
+
+5. click login
+<button type="submit" class="oxd-button oxd-button--medium oxd-button--main orangehrm-login-button" data-v-10d463b7="" data-v-358db50f=""><!----> Login <!----></button>
+//button[@type='submit']
+//button[text()=' Login ']
+//button[contains(text(),'Login')]
+
+//button[contains(.,'Login')]
+
+
+
+<input class="form-control" id="input-username" name="username" type="text" placeholder="Username">
+//input[@]
+
+
+
+
+<h3 class="text-center">Welcome to OSPOS, click a module below to get started.</h3>
+//h3[contains(text(),'Welcome')]
+
+
+<a...............>inbox(7)</a>
+driver.findElement(By.partialLinkText('inbox')).click();
+driver.findElement(By.xpath("//a[contains(text(),'inbox')]")).click();
+
+<span.............>inbox(7)</span>
+driver.findElement(By.xpath("//span[contains(text(),'inbox')]")).click();
+
+<span class="a-price-whole">2,199</span>
+//span[contains(text(),'1987')]
+//span[@class='a-price-whole']
+
+/html/body/a p-child fwd traversing
+
+//input[@value='A']/../../.. --> child to parent bkwd traversing
+
+/html/body/table/tbody/tr[2]/td[2]
+
+//td[text()='Java']/../../../../..
+
+
+
+
+
+
+
+
+
+
+
