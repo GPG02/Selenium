@@ -1,0 +1,44 @@
+independent-dependent xpath
+
+1. dependent element 
+--> the element which we need to identify
+--> it may be dynamic or duplicate
+
+2. independent element
+--> unique
+--> not dynamic
+
+xpath to identify cost of java
+//td[text()='Java']/../td[3]
+
+xpath to identify 2nd subject
+//td[text()='2']/../td[2]
+
+
+1. inspect IE & note down its html code
+2. place the mousepointer on html code of IE and move upwords till it highlights both IE & DE
+3. notedown the path path from IE to Common parent
+4. from CP move down to DE --use arrow keys
+5. write xpath from IE--> CP---->DE
+
+write xpath to identify Wholesale Price of tab in POS
+//td[text()='tab']/../td[7]
+
+
+
+//td[text()='laptop']/../td[1]/label/input
+
+//td[text()='laptop']/..//input[@type='checkbox']
+
+
+<span class="a-size-medium a-color-base a-text-normal">ASUS Marshmallow KW100 Keyboard, Supports Up to 3 Devices, 1.6mm Key Travel, Scissor Keys, Compact &amp; Lightweight Keyboard (Color - Green Tea Latte)</span>
+
+<span class="a-size-medium a-color-base a-text-normal">ASUS Marshmallow KW100 Keyboard, Supports Up to 3 Devices, 1.6mm Key Travel, Scissor Keys, Compact &amp; Lightweight Keyboard (Color - Green Tea Latte)</span>
+
+(//span[contains(text(),'Keychron')])[1]/../../../../div[3]/div[1]/div/div[1]/div[1]/div[1]/a/span/span[1]
+
+
+
+
+
+
